@@ -1,0 +1,59 @@
+@theme {
+  /* Colors - Primary */
+  --color-obsidian: #0B0B0C;
+  --color-obsidian-light: #1A1A1B;
+  --color-obsidian-dark: #050506;
+  --color-graphite: #2A2B2E;
+  --color-graphite-light: #3B3C3F;
+  --color-graphite-dark: #1F1F21;
+  --color-mist: #A6A7AB;
+  --color-mist-light: #C1C2C5;
+  --color-mist-dark: #8A8B8F;
+
+  /* Colors - Accent */
+  --color-flow-blue: #3A80F6;
+  --color-flow-blue-light: #5C97F8;
+  --color-flow-blue-dark: #1F5AD4;
+  --color-purple-glow: #7D5CFA;
+  --color-purple-glow-light: #9B7CFF;
+  --color-purple-glow-dark: #573DCC;
+  
+  /* Luxury Gold */
+  --color-gold: #C8A661;
+  --color-gold-light: #E4D5A1;
+
+  /* Semantic */
+  --color-success: #4BBF6B;
+  --color-warning: #E9A63A;
+  --color-error: #E05A5A;
+
+  /* Typography */
+  --font-serif: 'Canela', 'Times New Roman', serif;
+  --font-sans: 'Neue Montreal', 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-128: 128px;
+
+  /* Animation Easings */
+  --ease-cinematic: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-expo-out: cubic-bezier(0.19, 1, 0.22, 1);
+  
+  /* Durations */
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 500ms;
+  --duration-cinematic: 800ms;
+}

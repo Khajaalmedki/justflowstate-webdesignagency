@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* Canela Font Face - fallback to Times New Roman */
+@font-face {
+  font-family: 'Canela';
+  src: local('Times New Roman');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: local('Times New Roman');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Neue Montreal - using Inter as fallback */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+  }
+
+  h4, h5, h6 {
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Fluid Typography */
+.text-h1-cinematic {
+  font-size: clamp(3.5rem, 6vw, 6rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.text-h2-large {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.text-h3-medium {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.text-body-large {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.text-body-base {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-body-small {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.text-mono-label {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
